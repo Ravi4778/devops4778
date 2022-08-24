@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+echo "Hello Guys"
+echo "Welcomme to SH..."
+echo "Very easy to learn SH , .. if you know"
+echo "Today date is: "
+date
+
+:wq
+
+chmod u+x hello.sh
+
+./hello.sh
+. hello.sh
+sh hello.sh
+bash hello.sh
+
+echo "Please enter the devops tools.."
+read devopstools
+echo "the devops tools which you entered are: " $devopstools
+
+
